@@ -1,0 +1,16 @@
+# Strings are immutable
+a = "Sandeep "
+print(len(a))
+print(a.upper())
+print(a.lower())
+print(a.capitalize())
+print(a.strip('!'))
+print(a.count('!'))
+print(a.endswith('!!!'))
+print(a.find('@'))
+print(a.index('S'))
+print(a.isalnum())
+print(a.isalpha())
+print(a.islower())
+print(a.isspace())
+print(a.lower().swapcase())
